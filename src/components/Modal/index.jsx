@@ -128,7 +128,8 @@ const Modal = ({ handleClose, text, type }) => {
     <Backdrop onClick={handleClose}>
       {type === "dropIn" && (
         <motion.div
-          onClick={(e) => e.stopPropagation()}  // Prevent click from closing modal
+          onClick={(e) => e.stopPropagation()} // Prevent click from closing modal
+          drag 
           className="modal orange-gradient"
           variants={dropIn}
           initial="hidden"
@@ -142,7 +143,8 @@ const Modal = ({ handleClose, text, type }) => {
 
       {type === "flip" && (
         <motion.div
-          onClick={(e) => e.stopPropagation()}   
+          onClick={(e) => e.stopPropagation()} 
+          drag  
           className="modal  orange-gradient"
           variants={flip}
           initial="hidden"
@@ -157,6 +159,7 @@ const Modal = ({ handleClose, text, type }) => {
       {type === "newspaper" && (
         <motion.div
           onClick={(e) => e.stopPropagation()}   
+          drag
           className="modal orange-gradient"
           variants={newspaper}
           initial="hidden"
@@ -170,7 +173,8 @@ const Modal = ({ handleClose, text, type }) => {
 
       {type === "badSuspension" && (
         <motion.div
-          onClick={(e) => e.stopPropagation()}   
+          onClick={(e) => e.stopPropagation()} 
+          drag 
           className="modal orange-gradient"
           variants={badSuspension}
           initial="hidden"
@@ -187,6 +191,7 @@ const Modal = ({ handleClose, text, type }) => {
         <motion.div
           className="modal"
           onClick={(e) => e.stopPropagation()}
+          drag
           style={{
             padding: 0,
             height: "auto",

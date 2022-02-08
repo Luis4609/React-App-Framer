@@ -5,6 +5,7 @@ import { framerLogger } from "./stateLogger";
 import Notification from "./Components/Notification";
 import Input from "./Components/Input";
 import Modal from "./Components/Modal";
+import Menu from "./Components/Menu";
 import { add } from "./arr-utils";
 
 function App() {
@@ -89,6 +90,9 @@ function App() {
         >
           + Stack em up
         </motion.button>
+        <br/>
+        <SubHeader text="Animated modals" />
+        <Menu></Menu>
       </motion.main>
 
       <ModalContainer>
