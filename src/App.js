@@ -2,9 +2,9 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import useModal from "./Hooks/useModal";
 import { framerLogger } from "./stateLogger";
-import Notification from "./components/Notification";
-import Input from "./components/Input";
-import Modal from "./components/Modal";
+import Notification from "./Components/Notification";
+import Input from "./Components/Input";
+import Modal from "./Components/Modal";
 import { add } from "./arr-utils";
 
 function App() {
