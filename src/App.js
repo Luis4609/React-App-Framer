@@ -7,6 +7,7 @@ import Input from "./Components/Input";
 import Modal from "./Components/Modal";
 import Menu from "./Components/Menu";
 import { add } from "./arr-utils";
+import BetCounter from "./Components/Bet";
 
 function App() {
   // Modal state
@@ -37,6 +38,8 @@ function App() {
         <Header />
         <SubHeader text="Animated modals" />
 
+        
+
         <motion.select className="input" onChange={handleType}>
           <option value="dropIn">🪂 Drop in</option>
           <option value="flip">🛹 Flip</option>
@@ -53,6 +56,8 @@ function App() {
         >
           Launch modal
         </motion.button>
+
+       
 
         <br />
         <br />
@@ -93,6 +98,7 @@ function App() {
         <br/>
         <SubHeader text="Animated modals" />
         <Menu></Menu>
+        <BetCounter></BetCounter>
       </motion.main>
 
       <ModalContainer>
