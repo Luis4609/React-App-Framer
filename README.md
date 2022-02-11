@@ -10,3 +10,4 @@ Example of an application using React and Framer Motion
 - https://chatengine.io/
 - https://github.com/Asabeneh/30-Days-Of-React#introduction
 - https://www.youtube.com/watch?v=Q7AOvWpIVHU
+- https://www.freecodecamp.org/espanol/news/tutorial-de-react-como-construir-el-juego-2048-en-react/
